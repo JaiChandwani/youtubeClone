@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+/* header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    top: 0vw;
+    width: 100%;
+    left: 0vw;
+}
+.leftHeader{
+    position: relative; top: -0.2vw;
+}
+
+/* main body */
+.youtubeItems{
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: 33vw 33vw 33vw;
+    row-gap: 2vw;
+    column-gap: 2vw;
+    
+}
+
+/* footer */
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 20vw;
+    justify-content: center;
+    align-items: center;
+}

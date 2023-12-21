@@ -1,0 +1,51 @@
+/* menu button */
+.menuBtn {
+    height: fit-content;
+    background-color: transparent;
+    border: transparent;
+    position: relative;
+    top: -1vw;
+}
+
+.menuBtnImg {
+    width: 2.3vw;
+}
+
+/* youtube logo */
+.youtubeLogo {
+    width: 11vw;
+    margin: 0;
+    padding: 0;
+}
+
+/* searchBar */
+.searchBar {
+    width: 27vw;
+    height: 3vw;
+    text-align: center;
+    font-size: 2vw;
+    border-radius: 20px;
+    border-color: gray;
+    background-color: transparent;
+}
+
+/* mic button */
+.micBtn {
+    height: 3vw;
+    background-color: transparent;
+    border: transparent;
+}
+
+.micBtnImg {
+    height: 2vw;
+}
+
+/* create,notification,account button */
+.rightSideBtn {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.rightSideBtnImg {
+    height: 2vw;
+}

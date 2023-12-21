@@ -1,0 +1,25 @@
+/* cards */
+.card {
+    display: grid;
+    justify-content: left;
+}
+
+.cardImg {
+    width: 31vw;
+}
+/* fonts */
+.fs1 {
+    font-size: 2.3vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.fs2 {
+    font-size: 1.3vw;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+}
+.fs2 a{
+    text-decoration: none;
+    color: black;
+}
